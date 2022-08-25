@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="febcfec5-2e51-4990-8200-b396f927822d" name="Changes" comment="Added SavingsAccount.java.">
+    <list default="true" id="febcfec5-2e51-4990-8200-b396f927822d" name="Changes" comment="Created getter and setter methods for all the attributes which are modelled in SavingsAccount.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingsAccount.java" afterDir="false" />
     </list>
@@ -72,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661449453310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="   declared some attributes that can be modelled in SavingsAccount.java class">
+      <created>1661450053298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661450053299</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created getter and setter methods for all the attributes which are modelled in SavingsAccount.java class">
+      <created>1661450135191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661450135191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +104,8 @@
     <MESSAGE value="initial commit." />
     <MESSAGE value="Changed the source and target jdk versions from 18 to 11." />
     <MESSAGE value="Added SavingsAccount.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SavingsAccount.java." />
+    <MESSAGE value="   declared some attributes that can be modelled in SavingsAccount.java class" />
+    <MESSAGE value="Created getter and setter methods for all the attributes which are modelled in SavingsAccount.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created getter and setter methods for all the attributes which are modelled in SavingsAccount.java class" />
   </component>
 </project>
