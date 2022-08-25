@@ -12,12 +12,13 @@ public class SavingsAccount {
     private String accountNumber;
     private String accountOpeningDate;
     private String status;
-    private String availableBalance;
+    private double availableBalance;
     private String totalBalance;
     private Boolean isInternetBankingEnabled;
     private Boolean isMobileBankingEnabled;
     private double interestRate;
     private String modeOfOperation;
+
     public String getAccountName() {
         return accountName;
     }
@@ -97,5 +98,19 @@ public class SavingsAccount {
     public void setModeOfOperation(String modeOfOperation) {
         this.modeOfOperation = modeOfOperation;
     }
+    public SavingsAccount() {
 
+    }
+
+    public double DebitCash(double cash){
+        return cash = this.availableBalance - cash;
+    }
+    public double CreditCash(double cash){
+        return cash = this.availableBalance + cash;
+    }
+    public double RetrieveCash(double cash){
+        return cash;
+    }
 }
+
+

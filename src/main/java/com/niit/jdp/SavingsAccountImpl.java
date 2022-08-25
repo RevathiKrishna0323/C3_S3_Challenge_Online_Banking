@@ -7,4 +7,6 @@
 package com.niit.jdp;
 
 public class SavingsAccountImpl {
+    SavingsAccount savingsAccount = new SavingsAccount();
+
 }
