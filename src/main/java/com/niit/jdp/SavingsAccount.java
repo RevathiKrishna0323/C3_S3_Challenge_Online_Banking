@@ -35,7 +35,7 @@ public class SavingsAccount {
         return status;
     }
 
-    public String getAvailableBalance() {
+    public double getAvailableBalance() {
         return availableBalance;
     }
 
@@ -75,7 +75,7 @@ public class SavingsAccount {
         this.status = status;
     }
 
-    public void setAvailableBalance(String availableBalance) {
+    public void setAvailableBalance(double availableBalance) {
         this.availableBalance = availableBalance;
     }
 
