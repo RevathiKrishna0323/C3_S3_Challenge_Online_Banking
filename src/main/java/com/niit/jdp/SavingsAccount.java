@@ -13,7 +13,7 @@ public class SavingsAccount {
     private String accountOpeningDate;
     private String status;
     private double availableBalance;
-    private String totalBalance;
+    private double totalBalance;
     private Boolean isInternetBankingEnabled;
     private Boolean isMobileBankingEnabled;
     private double interestRate;
@@ -39,7 +39,7 @@ public class SavingsAccount {
         return availableBalance;
     }
 
-    public String getTotalBalance() {
+    public double getTotalBalance() {
         return totalBalance;
     }
 
@@ -79,7 +79,7 @@ public class SavingsAccount {
         this.availableBalance = availableBalance;
     }
 
-    public void setTotalBalance(String totalBalance) {
+    public void setTotalBalance(double totalBalance) {
         this.totalBalance = totalBalance;
     }
 
