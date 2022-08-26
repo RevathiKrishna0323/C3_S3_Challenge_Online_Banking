@@ -14,8 +14,8 @@ public class SavingsAccount {
     private String status;
     private double availableBalance;
     private double totalBalance;
-    private Boolean isInternetBankingEnabled;
-    private Boolean isMobileBankingEnabled;
+    private String InternetBankingStatus;
+    private String MobileBankingStatus;
     private double interestRate;
     private String modeOfOperation;
 
@@ -43,12 +43,12 @@ public class SavingsAccount {
         return totalBalance;
     }
 
-    public Boolean getInternetBankingEnabled() {
-        return isInternetBankingEnabled;
+    public String getInternetBanking() {
+        return InternetBankingStatus;
     }
 
-    public Boolean getMobileBankingEnabled() {
-        return isMobileBankingEnabled;
+    public String getMobileBanking() {
+        return MobileBankingStatus;
     }
 
     public double getInterestRate() {
@@ -83,12 +83,12 @@ public class SavingsAccount {
         this.totalBalance = totalBalance;
     }
 
-    public void setInternetBankingEnabled(Boolean internetBankingEnabled) {
-        isInternetBankingEnabled = internetBankingEnabled;
+    public void setInternetBanking(String internetBankingStatus) {
+        InternetBankingStatus = internetBankingStatus;
     }
 
-    public void setMobileBankingEnabled(Boolean mobileBankingEnabled) {
-        isMobileBankingEnabled = mobileBankingEnabled;
+    public void setMobileBanking(String mobileBankingStatus) {
+        MobileBankingStatus = mobileBankingStatus;
     }
 
     public void setInterestRate(double interestRate) {
